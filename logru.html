@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-register.css" />
+    <title>Вход в аккаунт</title>
+
+</head>
+<body>
+
+    <div class="modal fade" id="myModal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Авторизация</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    
+                </div>
+
+                <div class="modal-footer">
+                    <a href="indexAuthru.html" class="btn btn-danger">На главную</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="text-center" style="padding:50px 0">
+        <div class="logo">Логин</div>
+        <div class="login-form-1">
+            <form id="form1" class="text-left">
+                <div class="login-form-main-message"></div>
+                <div class="main-login-form">
+                    <div class="login-group">
+                        <div class="form-group">
+                            <label for="username">Email</label>
+                            <input type="email" placeholder="Email address" id="email1" />
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Собщение о ошибке</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="username">Пароль</label>
+                            <input type="password" placeholder="Введите пароль" id="password1" />
+                            <i class="fas fa-check-circle"></i>
+                            <i class="fas fa-exclamation-circle"></i>
+                            <small>Собщение о ошибке</small>
+                        </div>
+                        <div class="form-group login-group-checkbox">
+                            <input type="checkbox" id="lg_remember" name="lg_remember">
+                            <label for="lg_remember">запомнить меня</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn" style="width:100px!important;position:relative;margin:5px 20px 5px 60px; background-color:#4CAF50!important">Войти</button>
+
+                </div>
+            </form>
+        </div>
+        <!-- end:Main Form -->
+    </div>
+
+    <script src="app-2.js"></script>
+</body>
+</html>
